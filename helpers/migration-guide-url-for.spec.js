@@ -6,15 +6,15 @@ describe('Helper: migration-guide-url-for', () => {
   it('returns the main migration guide for vue', () => {
     expect(
       migrationGuideUrlFor('vue')
-    ).toBe('http://vuejs.org/guide/migration.html')
+    ).toBe('https://v2.vuejs.org/v2/guide/migration')
   })
 
   it('returns a suffixed migration guide for companion libraries', () => {
     expect(
       migrationGuideUrlFor('vue-router')
-    ).toBe('http://vuejs.org/guide/migration-vue-router.html')
+    ).toBe('https://v2.vuejs.org/v2/guide/migration-vue-router')
     expect(
       migrationGuideUrlFor('vuex')
-    ).toBe('http://vuejs.org/guide/migration-vuex.html')
+    ).toBe('https://v2.vuejs.org/v2/guide/migration-vuex')
   })
 })

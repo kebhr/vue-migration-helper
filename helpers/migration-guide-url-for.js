@@ -2,8 +2,8 @@
 
 module.exports = function (library) {
   if (library === 'vue') {
-    return 'http://vuejs.org/guide/migration.html'
+    return 'https://v2.vuejs.org/v2/guide/migration'
   } else {
-    return 'http://vuejs.org/guide/migration-' + library + '.html'
+    return 'https://v2.vuejs.org/v2/guide/migration-' + library
   }
 }

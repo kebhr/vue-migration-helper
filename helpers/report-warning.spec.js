@@ -22,7 +22,7 @@ describe('Helper: report-warning', () => {
 1. ddd
   Line bbb: /foo/bar/baz.js
   Reason: ccc
-  More info: http://vuejs.org/guide/migration-yyy.html#eee`)
+  More info: https://v2.vuejs.org/v2/guide/migration-yyy#eee`)
   })
 
   it('prints the correct output for a simple vue deprecation', () => {
@@ -44,6 +44,6 @@ describe('Helper: report-warning', () => {
 2. ddd
   Line bbb: /foo/bar/baz.js
   Reason: ccc
-  More info: http://vuejs.org/guide/migration.html#eee`)
+  More info: https://v2.vuejs.org/v2/guide/migration#eee`)
   })
 })
